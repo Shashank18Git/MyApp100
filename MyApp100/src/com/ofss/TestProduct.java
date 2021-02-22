@@ -12,7 +12,16 @@ public class TestProduct {
 		
 		System.out.println(customer);
 		System.out.println("----------------");
-
+		
+		double maxValue = 0;
+		for(Stock stock: stockArray){
+			
+			if(stock.getStockPrice() > maxValue){
+				maxValue = stock.getStockPrice();
+			}
+		}
+		
+		System.out.println("Max Price:" + maxValue);
 	}
 
 }
