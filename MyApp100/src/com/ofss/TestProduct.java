@@ -8,7 +8,7 @@ public class TestProduct {
 		stockArray[1] = new Stock(200, "IBM", 122.45);
 		stockArray[2] = new Stock(300, "Accenture", 121.45);
 		
-		Customer customer = new Customer("Oracle", stockArray);
+		Customer customer = new Customer("TestCust", stockArray);
 		
 		System.out.println(customer);
 		System.out.println("----------------");
